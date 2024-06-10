@@ -11,7 +11,7 @@ const Staff = () => {
             <div class="rowit">
                 <div className="columnbia">
                     <div className="card1">
-                    <img src="Ayomide.png" alt="ceo" style={{ width: "100%", height: "28rem" }} />
+                    <img src="Ayo.png" alt="ceo" style={{ width: "100%", height: "28rem" }} />
                     <div className="contain">
                         <h2>TAIWO AYOMIDE</h2>
                         <p className="titlea">CEO & Founder</p>
@@ -53,7 +53,7 @@ const Staff = () => {
                     <img src="Bunmi.png" alt="bunmi" style={{ width: "100%", height: "31rem" }} />
                     <div className="contain">
                         <h2>AJIBADE OLUWABUNMI</h2>
-                        <p className="titlea">Content Writing & social Media Representative</p>
+                        <p className="titlea">Lead Content Writing & social Media Representative</p>
                         {/* <p>Lead Software Engineer ConnectPro</p> */}
                         <p>ajibadeoluwabunmi2022@gmail.com</p>
                         <p><button className="buttonia">Contact</button></p>
@@ -63,7 +63,7 @@ const Staff = () => {
 
                 <div className="columnbia">
                     <div className="card1">
-                        <img src="David.png" alt="jed" style={{ width: "100%", height: "31rem" }} />
+                        <img src="David.png" alt="bdo" style={{ width: "100%", height: "31rem" }} />
                     <div className="contain">
                         <h2>DAVID BOLAJI</h2>
                         <p className="titlea">Senior Graphic Designer</p>
@@ -75,7 +75,7 @@ const Staff = () => {
                 </div>
                 <div className="columnbia">
                     <div className="card1">
-                    <img src="Ewuola.png" alt="nike" style={{ width: "100%", height: "31rem" }} />
+                    <img src="Ewuola.png" alt="reuben" style={{ width: "100%", height: "31rem" }} />
                     <div className="contain">
                         <h2>EWUOLA REUBEN</h2>
                         <p className="titlea">Frontend Engineer</p>
@@ -89,39 +89,53 @@ const Staff = () => {
             <div class="rowit" data-aos="fade-up" data-aos-duration="3000">
                 <div className="columnbia">
                     <div className="card1">
-                    <img src="Tiolu.png" alt="tolu" style={{ width: "100%", height: "31rem" }} />
-                    <div className="contain">
-                        <h2>AKERELE TIOLUWANIMI</h2>
-                        <p className="titlea">Video Editor & Motion Graphics</p>
-                        {/* <p>Lead Software Engineer ConnectPro</p> */}
-                        <p>atoluwani11@gmail.com</p>
-                        <p><button className="buttonia">Contact</button></p>
-                    </div>
+                        <img src="Tiolu.png" alt="tolu" style={{ width: "100%", height: "31rem" }} />
+                        <div className="contain">
+                            <h2>AKERELE TIOLUWANIMI</h2>
+                            <p className="titlea">Video Editor & Motion Graphics</p>
+                            {/* <p>Lead Software Engineer ConnectPro</p> */}
+                            <p>atoluwani11@gmail.com</p>
+                            <p><button className="buttonia">Contact</button></p>
+                        </div>
                     </div>
                 </div>
                 <div className="columnbia">
                         <div className="card1">
-                        <img src="Toyin.png" alt="tolu" style={{ width: "100%", height: "31rem" }} />
-                        <div className="contain">
-                            <h2>AJIBADE OLUWATOYIN</h2>
-                            <p className="titlea">Graphic Designer</p>
-                            {/* <p>Lead Software Engineer ConnectPro</p> */}
-                            <p>victory.ajibade@gmail.com</p>
-                            <p><button className="buttonia">Contact</button></p>
-                        </div>
+                            <img src="Toyin.png" alt="toyin" style={{ width: "100%", height: "31rem" }} />
+                            <div className="contain">
+                                <h2>AJIBADE OLUWATOYIN</h2>
+                                <p className="titlea">Graphic Designer</p>
+                                {/* <p>Lead Software Engineer ConnectPro</p> */}
+                                <p>victory.ajibade@gmail.com</p>
+                                <p><button className="buttonia">Contact</button></p>
+                            </div>
                         </div>
                 </div>
                 <div className="columnbia">
                         <div className="card1">
-                        <img src="Victor.png" alt="tolu" style={{ width: "100%", height: "31rem" }} />
+                            <img src="Victor.png" alt="victor" style={{ width: "100%", height: "31rem" }} />
+                            <div className="contain">
+                                <h2>OYEDIRAN VICTOR</h2>
+                                <p className="titlea">Photographer</p>
+                                {/* <p>Lead Software Engineer ConnectPro</p> */}
+                                <p>oyediranvictoroluwafunso@gmail.com</p>
+                                <p><button className="buttonia">Contact</button></p>
+                            </div>
+                        </div>
+                </div>
+            </div>
+            <div class="rowit" data-aos="fade-up" data-aos-duration="3000">
+                <div className="columnbia">
+                    <div className="card1">
+                        <img src="Seyi.png" alt="seyi" style={{ width: "100%", height: "31rem" }} />
                         <div className="contain">
-                            <h2>OYEDIRAN VICTOR</h2>
-                            <p className="titlea">Photographer</p>
+                            <h2>OYESUSI OLUWASEYI</h2>
+                            <p className="titlea">Content Writing</p>
                             {/* <p>Lead Software Engineer ConnectPro</p> */}
-                            <p>oyediranvictoroluwafunso@gmail.com</p>
+                            <p>oyesusihellen@gmail.com</p>
                             <p><button className="buttonia">Contact</button></p>
                         </div>
-                        </div>
+                    </div>
                 </div>
             </div>
     </div>
