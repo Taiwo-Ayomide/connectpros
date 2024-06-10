@@ -1,0 +1,134 @@
+.tdet__uft {
+    padding-left: 10rem;
+    padding-right: 10rem;
+    margin-top: 10rem;
+    display: flex;
+}
+.__tirt {
+    padding-top: 8rem;
+}
+.ihd__yfb {
+    font-size: 3rem;
+    font-weight: 300;
+    width: 90%;
+}
+.ydte__dji {
+    font-weight: 300;
+    font-size: 1.2rem;
+}
+.tdf__img {
+    width: 40rem !important;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .tdet__uft {
+        display: block;
+        padding-left: 3rem;
+        padding-right: 3rem;
+        margin-top: -8rem;
+    }
+    .ihd__yfb {
+        width: 100%;
+    }
+    .ydte__dji {
+        font-size: 1rem;
+    }
+    .tdf__img {
+        width: 100% !important;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    .tdet__uft {
+        display: block;
+        padding-left: 3rem;
+        padding-right: 3rem;
+        margin-top: -8rem;
+    }
+    .ihd__yfb {
+        width: 100%;
+    }
+    .ydte__dji {
+        font-size: 1rem;
+    }
+    .tdf__img {
+        width: 70% !important;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    .tdet__uft {
+        padding-left: 5rem;
+        padding-right: 5rem;
+        margin-top: 5rem;
+        display: flex;
+    }
+    .__tirt {
+        padding-top: 0rem;
+    }
+    .ihd__yfb {
+        font-size: 3rem;
+        font-weight: 300;
+        width: 90%;
+    }
+    .ydte__dji {
+        font-weight: 300;
+        font-size: 1.2rem;
+    }
+    .tdf__img {
+        width: 25rem !important;
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .tdet__uft {
+        padding-left: 5rem;
+        padding-right: 5rem;
+        margin-top: 10rem;
+        display: flex;
+    }
+    .__tirt {
+        padding-top: 8rem;
+    }
+    .ihd__yfb {
+        font-size: 3rem;
+        font-weight: 300;
+        width: 90%;
+    }
+    .ydte__dji {
+        font-weight: 300;
+        font-size: 1.2rem;
+    }
+    .tdf__img {
+        width: 30rem !important;
+    }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    .tdet__uft {
+        padding-left: 10rem;
+        padding-right: 10rem;
+        margin-top: 10rem;
+        display: flex;
+    }
+    .__tirt {
+        padding-top: 8rem;
+    }
+    .ihd__yfb {
+        font-size: 3rem;
+        font-weight: 300;
+        width: 90%;
+    }
+    .ydte__dji {
+        font-weight: 300;
+        font-size: 1.2rem;
+    }
+    .tdf__img {
+        width: 30rem !important;
+    }
+}

@@ -1,0 +1,135 @@
+.icons {
+    display: flex;
+    /* flex: 1; */
+    margin-top: 17rem;
+    justify-content: space-between;
+}
+
+.icons-connect {
+    width: 15rem;
+}
+.cjfj__dnf {
+    text-align: center;
+    padding-left: 10rem;
+    padding-right: 10rem;
+}
+.gfs__gfv {
+    font-family: var(--body-font);
+    font-weight: 300;
+    line-height: 3.5rem;
+    font-size: 3.2rem;
+}
+.dtdv__gfc {
+    width: 100%;
+}
+/* --body-font */
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .icons-connect {
+        overflow: hidden;
+    }
+    .icons {
+        margin-top: 8rem;
+    }
+    .cjfj__dnf {
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+    .gfs__gfv {
+        font-size: 1.4rem;
+        line-height: 2rem;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    .icons-connect {
+        overflow: hidden;
+    }
+    .icons {
+        margin-top: 10rem;
+    }
+    .cjfj__dnf {
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+    .gfs__gfv {
+        font-size: 1.4rem;
+        line-height: 2rem;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    .icons {
+        display: flex;
+        /* flex: 1; */
+        margin-top: 12rem;
+        justify-content: space-between;
+    }
+    
+    .icons-connect {
+        width: 15rem;
+    }
+
+    .cjfj__dnf {
+        padding-left: 3rem;
+        padding-right: 3rem;
+    }
+    .gfs__gfv {
+        font-size: 2.5rem;
+        line-height: 3rem;
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .icons {
+        display: flex;
+        /* flex: 1; */
+        margin-top: 12rem;
+        justify-content: space-between;
+    }
+    
+    .icons-connect {
+        width: 15rem;
+    }
+
+    .cjfj__dnf {
+        text-align: center;
+        padding-left: 10rem;
+        padding-right: 10rem;
+    }
+    .gfs__gfv {
+        font-family: var(--body-font);
+        font-weight: 300;
+        line-height: 3.5rem;
+        font-size: 3.2rem;
+    }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    .icons {
+        display: flex;
+        /* flex: 1; */
+        margin-top: 17rem;
+        justify-content: space-between;
+    }
+    
+    .icons-connect {
+        width: 15rem;
+    }
+
+    .cjfj__dnf {
+        text-align: center;
+        padding-left: 10rem;
+        padding-right: 10rem;
+    }
+    .gfs__gfv {
+        font-family: var(--body-font);
+        font-weight: 300;
+        line-height: 3.5rem;
+        font-size: 3.2rem;
+    }
+}

@@ -1,0 +1,77 @@
+.li {
+    color: var(--color-text);
+    font-size: 1.5rem;
+}
+
+.inner {
+    display: block;
+    margin-top: 3rem;
+}
+.general {
+    margin-top: 8rem;
+    margin-left: 5rem;
+    margin-right: 5rem;
+}
+.text {
+    font-family: var(--body-font);
+    font-weight: 300;
+    font-size: var(--h2-font-size);
+    text-align: justify;
+    line-height: 2rem;
+    color: var(--color-text);
+}
+.aims {
+    font-size: 2rem;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .general {
+        margin-left: 3rem;
+        margin-right: 3rem;
+    }
+    .li {
+        font-size: 1rem;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    .general {
+        margin-left: 3rem;
+        margin-right: 3rem;
+    }
+    .li {
+        font-size: 1.5rem;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    .general {
+        margin-left: 4rem;
+        margin-right: 4rem;
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .general {
+        margin-left: 5rem;
+        margin-right: 5rem;
+    }
+    .aims {
+        font-size: 2rem;
+    }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    .general {
+        margin-left: 5rem;
+        margin-right: 5rem;
+    }
+    .aims {
+        font-size: 2rem;
+    }
+}

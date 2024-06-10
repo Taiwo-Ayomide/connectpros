@@ -1,0 +1,264 @@
+.advert__img {
+    display: flex;
+    justify-content: center;
+    margin-top: 6rem;
+}
+
+.the__img {
+    width: 93%;
+    /* height: 90rem; */
+    border-radius: 3rem;
+    position: absolute;
+}
+#tfa__gtf {
+    position: relative;
+}
+.gyr__tftwa {
+    margin-left: 5rem;
+}
+.gyr__hfgt {
+    margin-left: 5rem;
+    margin-top: 5rem;
+}
+.ygt__gji {
+    color: #FFA500;
+    font-family: "Roboto", sans-serif;
+    margin-top: 8rem;
+    font-size: 9rem;
+    width: 50%;
+    font-weight: 700;
+    font-style: normal;
+    text-shadow: 2px 2px #000080;
+}
+.buttoni {
+    display: inline-block;
+    border-radius: 4px;
+    background-color: #FFA500;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 28px;
+    padding: 20px;
+    width: 200px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+}
+  
+.buttoni span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+  
+.buttoni span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+}
+  
+.buttoni:hover span {
+    padding-right: 25px;
+}
+  
+.buttoni:hover span:after {
+    opacity: 1;
+    right: 0;
+}
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .the__img {
+        width: 93%;
+        height: 30rem;
+        border-radius: 3rem;
+        position: absolute;
+    }
+    .ygt__gji {
+        margin-top: 2rem;
+        font-size: 2.5rem;
+    }
+    .gyr__hfgt {
+        margin-top: 2rem;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    .the__img {
+        width: 93%;
+        height: 30rem;
+        border-radius: 3rem;
+        position: absolute;
+    }
+    .ygt__gji {
+        margin-top: 2rem;
+        font-size: 2.5rem;
+    }
+    .gyr__hfgt {
+        margin-top: 2rem;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    .the__img {
+        width: 93%;
+        height: 30rem;
+        border-radius: 3rem;
+        position: absolute;
+    }
+    .ygt__gji {
+        margin-top: 2rem;
+        font-size: 2.5rem;
+    }
+    .gyr__hfgt {
+        margin-top: 2rem;
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .advert__img {
+        display: flex;
+        justify-content: center;
+    }
+    
+    .the__img {
+        width: 93%;
+        height: 40rem;
+        border-radius: 3rem;
+        position: absolute;
+    }
+    #tfa__gtf {
+        position: relative;
+    }
+    .gyr__tftwa {
+        margin-left: 5rem;
+    }
+    .gyr__hfgt {
+        margin-left: 5rem;
+        margin-top: 5rem;
+    }
+    .ygt__gji {
+        /* color: var(--color-text); */
+        margin-top: 8rem;
+        font-size: 4rem;
+    }
+    .buttoni {
+        display: inline-block;
+        border-radius: 4px;
+        background-color: #FFA500;
+        border: none;
+        color: #FFFFFF;
+        text-align: center;
+        font-size: 28px;
+        padding: 20px;
+        width: 200px;
+        transition: all 0.5s;
+        cursor: pointer;
+        margin: 5px;
+    }
+      
+    .buttoni span {
+        cursor: pointer;
+        display: inline-block;
+        position: relative;
+        transition: 0.5s;
+    }
+      
+    .buttoni span:after {
+        content: '\00bb';
+        position: absolute;
+        opacity: 0;
+        top: 0;
+        right: -20px;
+        transition: 0.5s;
+    }
+      
+    .buttoni:hover span {
+        padding-right: 25px;
+    }
+      
+    .buttoni:hover span:after {
+        opacity: 1;
+        right: 0;
+    }
+    
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    .advert__img {
+        display: flex;
+        justify-content: center;
+    }
+    
+    .the__img {
+        width: 93%;
+        height: 40rem;
+        border-radius: 3rem;
+        position: absolute;
+        background-size: contain;
+    }
+    #tfa__gtf {
+        position: relative;
+    }
+    .gyr__tftwa {
+        margin-left: 5rem;
+    }
+    .gyr__hfgt {
+        margin-left: 5rem;
+        margin-top: 5rem;
+    }
+    .ygt__gji {
+        /* color: var(--color-text); */
+        margin-top: 8rem;
+        font-size: 4rem;
+    }
+    .buttoni {
+        display: inline-block;
+        border-radius: 4px;
+        background-color: #FFA500;
+        border: none;
+        color: #FFFFFF;
+        text-align: center;
+        font-size: 28px;
+        padding: 20px;
+        width: 200px;
+        transition: all 0.5s;
+        cursor: pointer;
+        margin: 5px;
+    }
+      
+    .buttoni span {
+        cursor: pointer;
+        display: inline-block;
+        position: relative;
+        transition: 0.5s;
+    }
+      
+    .buttoni span:after {
+        content: '\00bb';
+        position: absolute;
+        opacity: 0;
+        top: 0;
+        right: -20px;
+        transition: 0.5s;
+    }
+      
+    .buttoni:hover span {
+        padding-right: 25px;
+    }
+      
+    .buttoni:hover span:after {
+        opacity: 1;
+        right: 0;
+    }
+    
+}

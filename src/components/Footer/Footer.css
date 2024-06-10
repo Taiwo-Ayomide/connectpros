@@ -1,0 +1,119 @@
+._tyrf {
+    background-color: var(--text-color);
+    width: 100%;
+    height: auto;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+.yueo__fdt {
+    padding-left: 10rem;
+    padding-right: 10rem;
+}
+.ufje_jigt {
+    width: 3rem;
+}
+.__text {
+    color: var(--title-color);
+}
+
+ul {
+    color: var(--title-color);
+    line-height: 2rem;
+}
+aside {
+    color: var(--title-color);
+}
+.Left {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px #fff solid;
+    padding-bottom: 2rem;
+}
+.sec {
+    margin-top: 3rem;
+    border: none;
+}
+.Last {
+    display: flex;
+    justify-content: space-around;
+}
+.year {
+    color: var(--title-color);
+    font-size: 1rem;
+    font-weight: 300;
+}
+.terms {
+    color: var(--title-color);
+    font-size: 1rem;
+    font-weight: 300;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .yueo__fdt {
+        padding-left: 3rem;
+        padding-right: 3rem;
+    }
+    .Left {
+        display: block;
+    }
+    .Last {
+        display: block;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    .yueo__fdt {
+        padding-left: 5rem;
+        padding-right: 5rem;
+    }
+    .Left {
+        display: block;
+    }
+    .Last {
+        display: block;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    .yueo__fdt {
+        padding-left: 5rem;
+        padding-right: 5rem;
+    }
+    .Left {
+        display: flex;
+    }
+    .Last {
+        display: flex;
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .yueo__fdt {
+        padding-left: 10rem;
+        padding-right: 10rem;
+    }
+    .Left {
+        display: flex;
+    }
+    .Last {
+        display: flex;
+    }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    .yueo__fdt {
+        padding-left: 10rem;
+        padding-right: 10rem;
+    }
+    .Left {
+        display: flex;
+    }
+    .Last {
+        display: flex;
+    }
+}
