@@ -1,14 +1,14 @@
-.jdf__yrf {
-    background-color: var(--color-text);
+.jdf__yrfi {
+    background-color: transparent;
     width: 100%;
     height: auto;
     margin-top: 3rem;
 }
-.yfht__jhs {
+.yfht__jhsi {
     font-size: 3rem;
     font-weight: 300;
     width: 80%;
-    color: var(--title-color);
+    color: var(--color-text);
 }
 .container {
     display: flex;
@@ -21,7 +21,7 @@
     padding-top: 5rem;
 }
 .exo {
-    color: var(--title-color);
+    color: var(--color-text);
     font-weight: 200;
     font-size: 1.2rem;
     width: 100%;
@@ -41,11 +41,11 @@
         padding-right: 2rem;
         display: block;
     }
-    .yfht__jhs {
+    .yfht__jhsi {
         font-size: 1.2rem;
         font-weight: 600;
         width: 100%;
-        color: var(--title-color);
+        color: var(--color-text);
     }
     .text__fyst {
         padding-top: 1rem;
@@ -65,11 +65,11 @@
     .exo {
         font-size: 1rem;
     }
-    .yfht__jhs {
+    .yfht__jhsi {
         font-size: 1.2rem;
         font-weight: 600;
         width: 100%;
-        color: var(--title-color);
+        color: var(--color-text);
     }
     .text__fyst {
         padding-top: 8rem;
@@ -83,11 +83,11 @@
         padding-right: 2rem;
         display: flex;
     }
-    .yfht__jhs {
+    .yfht__jhsi {
         font-size: 2rem;
         font-weight: 600;
         width: 100%;
-        color: var(--title-color);
+        color: var(--color-text);
     }
     .text__fyst {
         padding-top: 8rem;
@@ -96,17 +96,17 @@
 
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
-    .jdf__yrf {
-        background-color: var(--color-text);
+    .jdf__yrfi {
+        background-color: transparent;
         width: 100%;
         height: auto;
         margin-top: 3rem;
     }
-    .yfht__jhs {
+    .yfht__jhsi {
         font-size: 3rem;
         font-weight: 600;
         width: 80%;
-        color: var(--title-color);
+        color: var(--color-text);
     }
     .container {
         display: flex;
@@ -119,7 +119,7 @@
         padding-top: 5rem;
     }
     .exo {
-        color: var(--title-color);
+        color: var(--color-text);
         font-weight: 200;
         font-size: 1.2rem;
         width: 100%;
@@ -128,17 +128,17 @@
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
-    .jdf__yrf {
-        background-color: var(--color-text);
+    .jdf__yrfi {
+        background-color: transparent;
         width: 100%;
         height: auto;
         margin-top: 3rem;
     }
-    .yfht__jhs {
+    .yfht__jhsi {
         font-size: 3rem;
         font-weight: 600;
         width: 80%;
-        color: var(--title-color);
+        color: var(--color-text);
     }
     .container {
         display: flex;
@@ -151,7 +151,7 @@
         padding-top: 5rem;
     }
     .exo {
-        color: var(--title-color);
+        color: var(--color-text);
         font-weight: 200;
         font-size: 1.2rem;
         width: 100%;

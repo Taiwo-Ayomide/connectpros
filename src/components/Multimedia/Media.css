@@ -20,7 +20,7 @@
 .text__fyst {
     padding-top: 5rem;
 }
-.exo {
+.exodu {
     color: var(--title-color);
     font-weight: 200;
     font-size: 1.2rem;
@@ -50,7 +50,7 @@
     .text__fyst {
         padding-top: 1rem;
     }
-    .exo {
+    .exodu {
         font-size: 1rem;
     }
 }
@@ -62,7 +62,7 @@
         padding-right: 2rem;
         display: flex;
     }
-    .exo {
+    .exodu {
         font-size: 1rem;
     }
     .yfht__jhs {
@@ -118,7 +118,7 @@
     .text__fyst {
         padding-top: 5rem;
     }
-    .exo {
+    .exodu {
         color: var(--title-color);
         font-weight: 200;
         font-size: 1.2rem;
@@ -150,7 +150,7 @@
     .text__fyst {
         padding-top: 5rem;
     }
-    .exo {
+    .exodu {
         color: var(--title-color);
         font-weight: 200;
         font-size: 1.2rem;

@@ -1,15 +1,15 @@
 import React from 'react'
-import "./Feature.css"
+import "./Celebrity.css"
 
-const Feature = () => {
+const Celebrity = () => {
   return (
     <div>
         <>
             <div className='tdet__uft' data-aos="fade-up" data-aos-duration="3000">
                 <div className='__tirt'>
-                    <h1 className='ihd__yfb'>Speak the way you want without fear</h1>
+                    <h1 className='ihd__yfb'>Home of Celebrities</h1>
                     <div>
-                        <h1 className='ydte__dji'>Your personal messages and calls are secured.  Only you and the person you are talking to can read or listen to them, and nobody in between, not even ConnectPro.</h1>
+                        <h1 className='ydte__dji'>Become a celebrity by posting on the News Feed page and use of ConnectPro tools for Page features and monetization.</h1>
                     </div>
                 </div>
                 <div>
@@ -21,4 +21,4 @@ const Feature = () => {
   )
 }
 
-export default Feature
+export default Celebrity

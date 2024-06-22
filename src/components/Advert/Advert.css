@@ -75,16 +75,27 @@
 @media only screen and (max-width: 600px) {
     .the__img {
         width: 93%;
-        height: 30rem;
+        height: 27rem;
         border-radius: 3rem;
         position: absolute;
     }
     .ygt__gji {
         margin-top: 2rem;
         font-size: 2.5rem;
+        width: 90%;
     }
     .gyr__hfgt {
         margin-top: 2rem;
+    }
+    #tfa__gtf {
+        margin-left: -2rem;
+        padding-top: 2rem;
+    }
+    .buttoni {
+        font-size: 15px;
+        padding: 16px;
+        width: 150px;
+        transition: all 0.5s;
     }
 }
 
@@ -92,16 +103,23 @@
 @media only screen and (min-width: 600px) {
     .the__img {
         width: 93%;
-        height: 30rem;
+        height: 27rem;
         border-radius: 3rem;
         position: absolute;
     }
     .ygt__gji {
-        margin-top: 2rem;
-        font-size: 2.5rem;
+        margin-top: 5rem;
+        font-size: 3rem;
+        width: 90%;
     }
     .gyr__hfgt {
         margin-top: 2rem;
+    }
+    .buttoni {
+        font-size: 15px;
+        padding: 16px;
+        width: 150px;
+        transition: all 0.5s;
     }
 }
 
@@ -114,8 +132,8 @@
         position: absolute;
     }
     .ygt__gji {
-        margin-top: 2rem;
-        font-size: 2.5rem;
+        margin-top: 6rem;
+        font-size: 3rem;
     }
     .gyr__hfgt {
         margin-top: 2rem;
@@ -149,6 +167,7 @@
         /* color: var(--color-text); */
         margin-top: 8rem;
         font-size: 4rem;
+        width: 60%;
     }
     .buttoni {
         display: inline-block;
@@ -220,6 +239,7 @@
         /* color: var(--color-text); */
         margin-top: 8rem;
         font-size: 4rem;
+        width: 60%;
     }
     .buttoni {
         display: inline-block;

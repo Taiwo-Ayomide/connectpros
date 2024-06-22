@@ -1,15 +1,15 @@
 import React from 'react'
-import "./Stream.css"
+import "./Video.css"
 
-const Stream = () => {
+const Video = () => {
   return (
     <div>
         <>
             <div className='tdet__uft' data-aos="fade-up" data-aos-duration="3000">
                 <div className='__tirt'>
-                    <h1 className='ihd__yfb'>Stream to ConnectPro, Stream to other apps</h1>
+                    <h1 className='ihd__yfb'>Video Call options</h1>
                     <div>
-                        <h1 className='ydte__dji'>Stream to all your platforms from ConnectPro. With one streaming to ConnectPro, all your streaming are automatically streamed to all your connected platforms.</h1>
+                        <h1 className='ydte__dji'>Share your thought with your famillies and friends regardless of wherever they are with seamless video call option. Catch exciting moment together and no one is left out.</h1>
                     </div>
                 </div>
                 <div>
@@ -21,4 +21,4 @@ const Stream = () => {
   )
 }
 
-export default Stream;
+export default Video;
